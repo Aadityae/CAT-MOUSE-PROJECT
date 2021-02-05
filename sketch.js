@@ -6,16 +6,16 @@ var Garden,Garden_image;
 
 function preload() {
     //load the images here
-Cat_image1 = loadAnimation("images/cat1.png")
-Cat_image2 = loadAnimation("images/cat2.png","images/cat3.png")
+Cat_image1 = loadAnimation("cat1.png")
+Cat_image2 = loadAnimation("cat2.png","images/cat3.png")
 
-Cat_image4 = loadAnimation("images/cat4.png")
+Cat_image4 = loadAnimation("cat4.png")
 
-Garden_image = loadImage("images/garden.png")
+Garden_image = loadImage("garden.png")
 
-Rat_image1 = loadAnimation("images/mouse1.png")
-Rat_image2=loadAnimation("images/mouse4.png")
-Rat_image3=loadAnimation("images/mouse2.png","images/mouse3.png")
+Rat_image1 = loadAnimation("mouse1.png")
+Rat_image2=loadAnimation("mouse4.png")
+Rat_image3=loadAnimation("mouse2.png","images/mouse3.png")
 }
 
 function setup(){
